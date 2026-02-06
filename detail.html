@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            width: 100px;
+            display: inline-block;
+        }
+        form{
+            color: rgb(207, 154, 90);
+            background-color: black;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <form action=""><fieldset>
+        <legend>Personal Details</legend>
+        <label>Name:</label> &nbsp;&nbsp;&nbsp;<input type="text"placeholder="Enter your name" name="sname"><br>
+       <label>Name:</label> <input type="text"placeholder="Enter your  Mother's name" name="mname"><br>
+       <label>Father's Name:</label> <input type="text"placeholder="Enter your Fatehr's name" name="fname">
+       <br>
+       <label>email:</label> <input type="email" name="email" placeholder="Enter your email">
+       <br>
+       <label for="">date of birth:</label> <input type="date" name="dob">
+       <br>
+       Gender: <input type="Radio" name="gender" >Male
+       <input type="radio" name="gender">Female
+       <br>
+       <label for="">Address:</label> <textarea name="Address" id=""></textarea>
+       <br>
+       <label for="">Hobbies:</label> <input type="checkbox" name="hobbies">Travelling
+       <input type="checkbox" name="hobbies">Cricket
+       <br>
+       <select>
+        <option value="Select Course"></option>
+        <option value="">btech</option>
+        <option value="">mca</option> 
+       </select>
+       <br>
+       <input type="submit">
+        <input type="reset">
+       </fieldset>
+    </form>
+</body>
+</html>
